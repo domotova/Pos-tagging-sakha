@@ -45,7 +45,11 @@ __Части речи якутского языка. Особенности ра
 ___
 ### Сбор датасета.
 __Анализ существующих решений для малоресурсных языков:__
- * Есть статья (URL: https://arxiv.org/pdf/1904.05426.pdf), где текст разбивают на несколько кластеров (unsupervised learning), потом каждому кластеру присваивают тег. Точность примерно составляет 50%.
+ * Всего нашла 4 статьи:
+   * Статья-1. (URL: https://arxiv.org/pdf/1904.05426.pdf), где текст разбивают на несколько кластеров (unsupervised learning), потом каждому кластеру присваивают тег. Точность примерно составляет 50%.
+   * Статья-2. (URL: https://arxiv.org/pdf/1906.02656.pdf)
+   * Статья-3. (URL: https://www.aclweb.org/anthology/2020.emnlp-main.391.pdf)
+   * Статья-4. (URL: https://wlv.openrepository.com/bitstream/handle/2436/623727/Bolucu_Can_A_Cascaded_Unsupervised_Model_for_PoS_Tagging.pdf?sequence=3&isAllowed=y)
  * Решение, аналогично как у Георгия Петрова, с задачей NER (Named Entity Recognition). Представлено тут: https://github.com/georgiypetrov/ner-sakha. Работает для задачи POS-tag плохо, результат разметки можете увидеть в папке data файл transl_sakha_with_tag.txt
  * Ручная разметка. Минимум по каждому тегу 1000 слов!!!
  
