@@ -51,7 +51,7 @@ __Анализ существующих решений для малоресур
    * Статья-3. (URL: https://www.aclweb.org/anthology/2020.emnlp-main.391.pdf)
    * Статья-4. (URL: https://wlv.openrepository.com/bitstream/handle/2436/623727/Bolucu_Can_A_Cascaded_Unsupervised_Model_for_PoS_Tagging.pdf?sequence=3&isAllowed=y)
  * Решение, аналогично как у Георгия Петрова, с задачей NER (Named Entity Recognition). Представлено тут: https://github.com/georgiypetrov/ner-sakha. Работает для задачи POS-tag плохо, результат разметки можете увидеть в папке data файл transl_sakha_with_tag.txt
- * Ручная разметка. Минимум по каждому тегу 1000 слов!!!
+ * Ручная разметка. Минимум разметить 10000 предложений!!!
  
 __Данные.__
 Данные взяты:
